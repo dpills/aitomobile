@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aitomobile"
+version = "0.1.0"
+description = ""
+authors = ["dpills"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.0"
+uvicorn = { extras = ["standard"], version = "^0.28.0" }
+python-dotenv = "^1.0.1"
+google-generativeai = "0.4.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

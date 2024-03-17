@@ -1,0 +1,116 @@
+{
+  "name": "aitomobile",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.21.0",
+    "expo": "~50.0.13",
+    "expo-status-bar": "~1.11.1",
+    "luxon": "^3.4.4",
+    "react": "18.2.0",
+    "react-native": "0.73.5",
+    "react-native-gifted-chat": "^2.4.0",
+    "react-native-markdown-display": "^7.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@types/luxon": "^3.4.2",
+    "@types/react": "~18.2.66",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-config-standard": "17.1.0",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "6.1.1",
+    "eslint-plugin-react": "7.34.1",
+    "eslint-plugin-react-native": "4.1.0",
+    "prettier": "3.2.5",
+    "typescript": "^5.4.2"
+  },
+  "private": true,
+  "packageManager": "yarn@4.1.1",
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": false,
+    "trailingComma": "all"
+  },
+  "eslintConfig": {
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+      "plugin:@typescript-eslint/recommended",
+      "plugin:react/recommended",
+      "plugin:react-native/all",
+      "standard",
+      "prettier"
+    ],
+    "plugins": [
+      "@typescript-eslint",
+      "react",
+      "react-native"
+    ],
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "settings": {
+      "react": {
+        "pragma": "React",
+        "version": "detect"
+      }
+    },
+    "globals": {
+      "__DEV__": false,
+      "jasmine": false,
+      "beforeAll": false,
+      "afterAll": false,
+      "beforeEach": false,
+      "afterEach": false,
+      "test": false,
+      "expect": false,
+      "describe": false,
+      "jest": false,
+      "it": false
+    },
+    "rules": {
+      "@typescript-eslint/ban-ts-ignore": 0,
+      "@typescript-eslint/ban-ts-comment": 0,
+      "@typescript-eslint/explicit-function-return-type": 0,
+      "@typescript-eslint/explicit-member-accessibility": 0,
+      "@typescript-eslint/explicit-module-boundary-types": 0,
+      "@typescript-eslint/indent": 0,
+      "@typescript-eslint/member-delimiter-style": 0,
+      "@typescript-eslint/no-empty-interface": 0,
+      "@typescript-eslint/no-explicit-any": 0,
+      "@typescript-eslint/no-object-literal-type-assertion": 0,
+      "@typescript-eslint/no-var-requires": 0,
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        {
+          "argsIgnorePattern": "^_",
+          "varsIgnorePattern": "^_"
+        }
+      ],
+      "comma-dangle": 0,
+      "multiline-ternary": 0,
+      "no-undef": 0,
+      "no-unused-vars": 0,
+      "no-use-before-define": 0,
+      "no-global-assign": 0,
+      "quotes": 0,
+      "react-native/no-raw-text": 0,
+      "react/no-unescaped-entities": 0,
+      "react/prop-types": 0,
+      "space-before-function-paren": 0
+    }
+  }
+}
